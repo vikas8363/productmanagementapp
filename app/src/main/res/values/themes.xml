@@ -1,0 +1,27 @@
+<resources>
+
+    <style name="Base.Theme.ProductManagementApp"
+        parent="Theme.Material3.Light.NoActionBar">
+
+        <item name="colorPrimary">#315FEA</item>
+        <item name="colorSecondary">#7654E8</item>
+
+        <item name="android:statusBarColor">
+            @android:color/transparent
+        </item>
+
+        <item name="android:navigationBarColor">
+            @android:color/transparent
+        </item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">
+            true
+        </item>
+
+    </style>
+
+    <style name="Theme.ProductManagementApp" parent="Base.Theme.ProductManagementApp" />
+
+    <style name="ThemeOverlay.ProductManagement.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog" />
+
+</resources>

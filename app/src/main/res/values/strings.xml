@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application -->
+    <string name="app_name">Product Management</string>
+    <string name="splash_title">Product Management</string>
+    <string name="splash_tagline">Manage your products with ease</string>
+
+    <!-- Product List -->
+    <string name="product_list_title">My Products</string>
+    <string name="product_list_subtitle">Manage your inventory</string>
+    <string name="product_list_subtitle_count">%1$d products available</string>
+
+    <!-- Product Summary -->
+    <string name="product_total_count">Total Products</string>
+    <string name="product_total_price">Total Inventory Value</string>
+    <string name="product_summary_title">Product Summary</string>
+    <string name="default_product_count">0</string>
+    <string name="default_product_total">₹0.00</string>
+
+    <!-- Product Item -->
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_add_product">Add Product</string>
+    <string name="action_update_product">Update Product</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_ok">OK</string>
+    <string name="action_confirm_delete">Delete</string>
+
+    <!-- Product Input -->
+    <string name="product_name_hint">Product name</string>
+    <string name="product_cost_hint">Product cost</string>
+    <string name="product_quantity_hint">Quantity</string>
+    <string name="product_total_label">Total Price</string>
+    <string name="product_cost_value">Cost: %1$s</string>
+    <string name="product_quantity_value">Quantity: %1$d</string>
+    <string name="product_total_value">Total: %1$s</string>
+    <string name="currency_suffix">₹</string>
+
+    <!-- Empty State -->
+    <string name="product_empty_title">No Products Found</string>
+    <string name="product_empty_description">Start adding products to manage your inventory.</string>
+
+    <!-- Sorting -->
+    <string name="sort_products_hint">Sort products</string>
+    <string name="sort_name_ascending">Name: A to Z</string>
+    <string name="sort_name_descending">Name: Z to A</string>
+    <string name="sort_price_ascending">Price: Low to High</string>
+    <string name="sort_price_descending">Price: High to Low</string>
+
+    <!-- Product Validation -->
+    <string name="error_product_name_required">Please enter product name</string>
+    <string name="error_product_cost_required">Please enter product cost</string>
+    <string name="error_product_cost_invalid">Enter a valid cost greater than zero</string>
+    <string name="error_quantity_required">Please select quantity</string>
+    <string name="error_product_cost_too_large">Product cost is too large</string>
+
+    <!-- Dialog Titles -->
+    <string name="dialog_error_title">Error</string>
+    <string name="dialog_success_title">Success</string>
+    <string name="dialog_info_title">Information</string>
+
+    <!-- Product Operation Messages -->
+    <string name="message_product_added">Product added successfully</string>
+    <string name="message_product_updated">Product updated successfully</string>
+    <string name="message_product_deleted">Product deleted successfully</string>
+
+    <!-- Delete Confirmation -->
+    <string name="confirm_delete_title">Delete Product?</string>
+    <string name="confirm_delete_message">Are you sure you want to delete this product? This action cannot be undone.</string>
+
+    <!-- Database and Repository Errors -->
+    <string name="error_database_operation">Unable to complete database operation. Please try again.</string>
+    <string name="error_product_not_found">Product not found. It may have already been deleted.</string>
+    <string name="error_unexpected">Something went wrong. Please try again later.</string>
+
+    <!-- Quantity Options -->
+    <string-array name="product_quantity_options">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+
+    <!-- Product Validation Errors -->
+    <string name="error_invalid_product_name">Please enter a valid product name.</string>
+
+    <string name="error_invalid_product_cost">Please enter a valid product cost greater than zero.</string>
+
+    <string name="error_invalid_quantity">Please select a valid quantity between 1 and 10.</string>
+
+    <!-- Product Sorting Options -->
+    <!--
+        <string-array name="product_sort_options">
+            <item>@string/sort_name_ascending</item>
+            <item>@string/sort_name_descending</item>
+            <item>@string/sort_price_ascending</item>
+            <item>@string/sort_price_descending</item>
+        </string-array>
+    -->
+
+</resources>

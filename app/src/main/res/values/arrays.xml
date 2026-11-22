@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="product_sort_options">
+
+        <item>@string/sort_name_ascending</item>
+
+        <item>@string/sort_name_descending</item>
+
+        <item>@string/sort_price_ascending</item>
+
+        <item>@string/sort_price_descending</item>
+
+    </string-array>
+
+</resources>

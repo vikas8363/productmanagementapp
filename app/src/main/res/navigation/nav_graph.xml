@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <!-- Splash Screen -->
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.app.productmanagementapp.presentation.splash.ui.SplashFragment"
+        android:label="@string/splash_title">
+
+        <action
+            android:id="@+id/action_splashFragment_to_productListFragment"
+            app:destination="@id/productListFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <!-- Main Product List -->
+    <fragment
+        android:id="@+id/productListFragment"
+        android:name="com.app.productmanagementapp.presentation.products.ui.ProductListFragment"
+        android:label="@string/product_list_title" />
+
+</navigation>
